@@ -21,7 +21,7 @@ module FormsLab
   #end
 
   #@ship = Ship.all
-  #Ship.clear
+  Ship.clear
 
   erb :"pirates/show"
   end

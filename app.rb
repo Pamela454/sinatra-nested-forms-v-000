@@ -20,7 +20,7 @@ module FormsLab
     Ship.new(details)
   end
 
-  @ship = Ship.all
+  @ships = Ship.all
 
   erb :"pirates/show"
   end
